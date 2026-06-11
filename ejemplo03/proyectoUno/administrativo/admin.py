@@ -47,3 +47,4 @@ class NumeroTelefonicoAdmin(admin.ModelAdmin):
         """ """
         return obj.estudiante.apellido
 admin.site.register(NumeroTelefonico, NumeroTelefonicoAdmin)
+
